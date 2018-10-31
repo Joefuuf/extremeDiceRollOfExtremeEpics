@@ -29,6 +29,8 @@ public class ExtremeDice {
        System.out.println("The Rules Are As Follows");
        System.out.println("-1- You Are Not Allowed to Exit Until You Guess The Roll Correctly");
        System.out.println("-2- You Are Not Allowed To Escape");
+       System.out.println("-3- Saturdays are for the boys");
+       System.out.println("-4- Lets get this bread");
        System.out.println("");
        System.out.println("------------------------------------------------------------");
        System.out.println("The Extreme Options of Epic Extremes are as follows");
