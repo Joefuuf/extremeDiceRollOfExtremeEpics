@@ -50,7 +50,9 @@ public class ExtremeDice {
            System.out.println("Please enter your guess");
            userGuess = keyedInput.nextInt();
            DICE_ROLL_6 = (int)Math.round(Math.random()*5+1);
-           if (userGuess == 
+           if (userGuess == DICE_ROLL_6){
+               
+           }
        }
        
     }
