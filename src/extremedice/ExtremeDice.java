@@ -20,9 +20,10 @@ public class ExtremeDice {
        
        int userGuess = 0;
        int userChoice = 0;
+       int DICE_ROLL_6 = 0;
+       int DICE_ROLL_12 = 0;
        
        //The following code is the main menu
-       
        System.out.println("-------Extreme Dice Game of Extremities-------");
        System.out.println("---------------------------------------------------------------");
        System.out.println("");
@@ -45,7 +46,11 @@ public class ExtremeDice {
        System.out.println("");
        System.out.println("---------------------------------------------------------------");
        
-       
+       if (userChoice == 1){
+           System.out.println("Please enter your guess");
+           userGuess = keyedInput.nextInt();
+           
+       }
        
     }
     
