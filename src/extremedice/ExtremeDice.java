@@ -24,7 +24,7 @@ public class ExtremeDice {
        //The following code is the main menu
        
        System.out.println("-------Extreme Dice Game of Extremities-------");
-       System.out.println("-----------------------------------------------------------------");
+       System.out.println("---------------------------------------------------------------");
        System.out.println("");
        System.out.println("The Rules Are As Follows");
        System.out.println("-1- You Are Not Allowed to Exit Until You Guess The Roll Correctly");
@@ -32,7 +32,7 @@ public class ExtremeDice {
        System.out.println("-3- Saturdays are for the boys");
        System.out.println("-4- Lets get this bread");
        System.out.println("");
-       System.out.println("------------------------------------------------------------");
+       System.out.println("---------------------------------------------------------------");
        System.out.println("The Extreme Options of Epic Extremes are as follows");
        System.out.println("1... 6 sided dice");
        System.out.println("2... 12 sided dice");
@@ -40,7 +40,11 @@ public class ExtremeDice {
        System.out.println("---------------------------------------------------------------");
        System.out.println("Please Select The Dice That You Would Like To Roll");
        
+       //The following code prompts the user to make their choice
        userChoice = keyedInput.nextInt();
+       System.out.println("");
+       System.out.println("---------------------------------------------------------------");
+       
        
        
     }
