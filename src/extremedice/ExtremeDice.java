@@ -63,13 +63,14 @@ public class ExtremeDice {
            //The code for the 12 sided dice 
             if (userChoice == 2){
                 System.out.println("Please enter your guess");
-            }
+            
             //The code generates a random number from 1-12 and prompts the user to guess
             while (userGuess != DICE_ROLL_12){
                 System.out.println("You will be returned to the main menu if you guess correctly");
                 DICE_ROLL_12 = (int)Math.round(Math.random()*11+1);
                 userGuess = keyedInput.nextInt();
             }
+          }
 
         }
         //Message displayed once the user exits
