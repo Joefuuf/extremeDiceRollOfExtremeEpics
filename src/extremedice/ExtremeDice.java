@@ -61,7 +61,7 @@ public class ExtremeDice {
                 }
             }
            //The code for the 12 sided dice 
-           else if (userChoice == 2){
+            if (userChoice == 2){
                 System.out.println("Please enter your guess");
             }
             //The code generates a random number from 1-12 and prompts the user to guess
