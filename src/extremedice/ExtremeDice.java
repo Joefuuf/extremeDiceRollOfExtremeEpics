@@ -68,7 +68,6 @@ public class ExtremeDice {
             while (userGuess != DICE_ROLL_12){
                 System.out.println("You will be returned to the main menu if you guess correctly");
                 DICE_ROLL_12 = (int)Math.round(Math.random()*11+1);
-                
                 userGuess = keyedInput.nextInt();
             }
 
