@@ -23,6 +23,7 @@ public class ExtremeDice {
         int userChoice = 0;
         int DICE_ROLL_6 = 0;
         int DICE_ROLL_12 = 0;
+        
 
         while (userChoice != 3) {
             //The following code is the main menu
@@ -33,7 +34,7 @@ public class ExtremeDice {
             System.out.println("-1- You Are Not Allowed to Exit Until You Guess The Roll Correctly");
             System.out.println("-2- You Are Not Allowed To Escape");
             System.out.println("-3- Saturdays are for the boys");
-            System.out.println("-4- Lets get this bread");
+            System.out.println("-4- Lets get this pastry");
             System.out.println("");
             System.out.println("---------------------------------------------------------------");
             System.out.println("The Extreme Options of Epic Extremes are as follows");
@@ -48,33 +49,33 @@ public class ExtremeDice {
             userChoice = keyedInput.nextInt();
             System.out.println("");
             System.out.println("---------------------------------------------------------------");
-            
+
             //The following code is for the 6 sided dice
             if (userChoice == 1) {
                 System.out.println("Please enter your guess");
                 //The code that generates a number between 1-6 and prompts the user to enter their guess
                 while (userGuess != DICE_ROLL_6) {
                     System.out.println("You will be returned to the main menu if you guess correctly");
-                    DICE_ROLL_6 = (int)Math.round(Math.random() * 5 + 1);
+                    DICE_ROLL_6 = (int) Math.round(Math.random() * 5 + 1);
                     userGuess = keyedInput.nextInt();
 
                 }
             }
-           //The code for the 12 sided dice 
-            if (userChoice == 2){
+            //The code for the 12 sided dice 
+            if (userChoice == 2) {
                 System.out.println("Please enter your guess");
-            
-            //The code generates a random number from 1-12 and prompts the user to guess
-            while (userGuess != DICE_ROLL_12){
-                System.out.println("You will be returned to the main menu if you guess correctly");
-                DICE_ROLL_12 = (int)Math.round(Math.random()*11+1);
-                userGuess = keyedInput.nextInt();
+
+                //The code generates a random number from 1-12 and prompts the user to guess
+                while (userGuess != DICE_ROLL_12) {
+                    System.out.println("You will be returned to the main menu if you guess correctly");
+                    DICE_ROLL_12 = (int) Math.round(Math.random() * 11 + 1);
+                    userGuess = keyedInput.nextInt();
+                }
             }
-          }
 
         }
         //Message displayed once the user exits
-        System.out.println("You have exited the program");
+        System.out.println("You gave up like a loser baby");
     }
 
 }
